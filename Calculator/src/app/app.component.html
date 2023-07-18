@@ -1,0 +1,48 @@
+<div>
+  <td><input type="text" id="result"></td>
+</div>
+
+<div>
+  <button class = "bt" (click)="UnaryOperation('%')">%</button>
+  <button class = "bt" (click)="clr()" >CE</button>
+  <button class = "bt" (click)="clr()">C</button>
+  <button class = "bt" (click)="DeleteLastChar()">DEL</button>
+</div>
+
+<div>
+  <button class = "bt" (click)="UnaryOperation('1/')">1/x</button>
+  <button class = "bt" (click)="UnaryOperation('²')">x²</button>
+  <button class = "bt" (click)="UnaryOperation('√')">√x</button>
+  <button class = "bt" (click)="Setoperator('÷')">÷</button>
+</div>
+
+<div>
+  <button class = "bt" (click)="put('7')">7</button>
+  <button class = "bt" (click)="put('8')">8</button>
+  <button class = "bt" (click)="put('9')">9</button>
+  <button class = "bt" (click)="Setoperator('×')">×</button>
+</div>
+
+<div>
+  <button class = "bt" (click)="put('4')">4</button>
+  <button class = "bt" (click)="put('5')">5</button>
+  <button class = "bt" (click)="put('6')">6</button>
+  <button class = "bt" (click)="Setoperator('-')">–</button>
+</div>
+
+<div>
+  <button class = "bt" (click)="put('1')">1</button>
+  <button class = "bt" (click)="put('2')">2</button>
+  <button class = "bt" (click)="put('3')">3</button>
+  <button class = "bt" (click)="Setoperator('+')">+</button>
+</div>
+
+<div>
+  <button class = "bt" (click)="SwitchSign()">±</button>
+  <button class = "bt" (click)="put('0')">0</button>
+  <button class = "bt" (click)="put('.')">.</button>
+  <button class = "bt" (click)="sendData('=')">=</button>
+</div>
+
+
+<router-outlet></router-outlet>

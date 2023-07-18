@@ -1,0 +1,34 @@
+div{
+    margin: auto;
+    display: flex;
+    width: 337px;
+    background-color:black;
+}
+
+input[type="text"] {
+    width: 309px;
+    padding: 30px 10px;
+    font-size: 28px;
+    border-radius: 5px;
+    border: 4px solid black;
+    background-color:lightgray;
+}
+
+.bt{
+    background-color:bisque;
+    border-radius: 5px;
+    height:80px;
+    width:80px;
+    margin:2px;
+    font-size: 30px;
+}
+
+.bt:hover{
+    background-color:darkgray;
+}
+
+body{
+    background-color:black;
+    width: 340px;
+    margin: auto;
+}
